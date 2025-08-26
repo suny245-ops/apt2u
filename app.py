@@ -59,5 +59,17 @@ def points_homeless(months:int)->int:
     else: return 32
 
 def points_dependents(n:int)->int:
-    if n <= 0: return 5
-    elif n
+    if n <= 0:
+        return 5
+    elif n == 1:
+        return 10
+    elif n == 2:
+        return 15
+    elif n == 3:
+        return 20
+    elif n == 4:
+        return 25
+    elif n == 5:
+        return 30
+    else:
+        return 35
